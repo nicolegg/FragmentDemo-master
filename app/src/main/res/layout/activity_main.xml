@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="132dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="248dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="367dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="86dp" />
+
+    <Button
+        android:id="@+id/btnfragment1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LISTAR"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="29dp" />
+
+    <Button
+        android:id="@+id/btnfragment2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INSERTAR"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="29dp" />
+
+    <Button
+        android:id="@+id/btnfragment3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SALIR"
+        tools:layout_editor_absoluteX="262dp"
+        tools:layout_editor_absoluteY="29dp" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/framelayout">
+
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>
